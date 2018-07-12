@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+	<meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<body>
+	<div class="container-header">
+      <a href="http://www.sect.net/"><img src="images/logo.jpg" alt="My silly Dr Seuss logo" class="headerlogo"></a>
+      <div class="box">this space intentionally left blank</div>
+	</div>
+    
+	<div class="container-main">
+        <div class="box">A</div>
+        <div class="skillcard">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-css-grid/lesson-ii/image-1.png" class="cardlogo"/>
+          <h2>B</h2>
+          <p class="description">
+            This delicious chocolate mousse will delight dinner guests of all ages!</p>
+        </div>
+        
+        <div class="skillcard">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-css-grid/lesson-ii/image-1.png" class="cardlogo"/>
+          <h2>github</h2>
+          <p class="description">
+            This delicious chocolate mousse will delight dinner guests of all ages!</p>
+        </div>
+        
+        <div class="skillcard">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-css-grid/lesson-ii/image-1.png" class="cardlogo"/>
+          <h2>github</h2>
+          <p class="description">
+            This delicious chocolate mousse will delight dinner guests of all ages!</p>
+        </div>
+        
+        <div class="box">Work</div>
+        <div class="skillcard">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-css-grid/lesson-ii/image-1.png" class="cardlogo"/>
+          <h2>github</h2>
+          <p class="description">
+            This delicious chocolate mousse will delight dinner guests of all ages!</p>
+        </div>
+        
+        <div class="skillcard">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-css-grid/lesson-ii/image-1.png" class="cardlogo"/>
+          <h2>github</h2>
+          <p class="description">
+            This delicious chocolate mousse will delight dinner guests of all ages!</p>
+        </div>
+        
+        <div class="skillcard">
+          <img src="https://s3.amazonaws.com/codecademy-content/courses/learn-css-grid/lesson-ii/image-1.png" class="cardlogo"/>
+          <h2>github</h2>
+          <p class="description">
+            This delicious chocolate mousse will delight dinner guests of all ages!</p>
+        </div>
+        
+    </div>	
+	
+	
+</body>
+
+</HTML>
