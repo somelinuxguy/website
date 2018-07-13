@@ -1,5 +1,5 @@
 /* I used Dan's Tools to beautify my CSS spacing. 
-
+Ever notice how "historical reasons" is a universal excuse?
 Main wrapper properties */
  .wrapper {
      max-width: 1024px;
@@ -15,7 +15,7 @@ Main wrapper properties */
          "content" "sidebar" 
          "footer";
 }
-/* media definition for the rest of the screen sizes yes I'm lazy and didn't make a < 500px and a 700px because I don't care. */
+/* media definition for screen sizes at 500px minimum. This excludes tiny phone browsers. Historical reasons. */
  @media (min-width: 500px) {
      .wrapper {
          grid-template-columns: 1fr 4fr 1fr;
@@ -62,21 +62,21 @@ Main wrapper properties */
      min-height: 50px;
      background-color: #fff12c;
 }
-/* dare we nest a grid inside a grid? */
+/* dare we nest a grid inside a grid? Historical reasons.*/
  .content {
     font-family: Work Sans;
-     grid-area: content;
-     background-color: #da8d25;
-     padding: 15px;
-     display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-gap: 20px;
-     justify-items: center;
-    /* comment this to make all cards the same length 
+    grid-area: content;
+    background-color: #da8d25;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+/* toggle this to make all cards the same length 
      align-items: start;
-     */
-     align-content: center;
-     grid-auto-flow: row;
+*/
+    align-content: center;
+    grid-auto-flow: row;
 }
 
  .skillscontent {
