@@ -6,17 +6,20 @@ Main wrapper properties */
      margin: 0 auto;
      font: 1.2em "Work Sans", arial, sans-serif;
 }
-/* add a mobile baseline */
+/* add a baseline */
  .wrapper {
      display: grid;
      grid-gap: 10px;
      grid-template-areas: 
-         "header" "nav" 
-         "content" "sidebar" 
+         "header" 
+	 "nav" 
+         "content" 
          "footer";
 }
-/* media definition for screen sizes at 500px minimum. This excludes tiny phone browsers. Historical reasons. */
- @media (min-width: 500px) {
+/* media definition for screen sizes smaller than 500px. 
+This probably excludes tiny phone browsers.
+Historical reasons. */
+ @media (max-width: 500px) {
      .wrapper {
          grid-template-columns: 1fr 4fr 1fr;
          grid-gap: 0px;
